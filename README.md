@@ -1,13 +1,14 @@
 # simulink_greenhouse
 This is a university project for Modelización de Sistemas Biológicos.
+Matlab and simulink must be installed.
+The DATA.m document has all the information of measurements, variables, operations, constants etc. All of this can be changed. 
+The .sxl document has the graphical programming environment for modeling, simulating and analyzing the greenhouse. 
 
 This is a MATLAB and Simulink model that maintains the temperature inside a greenhpuse between 17-35ºC with a cooling and heat systems. 
 The simulation will take place un 1 week (168 hours) and will have as an output:
 - Economic cost(euros) of the cooling and heating systems.
 - Power consumption in kW*h
 - External and internal temperatures variation.
-
-The DATA.m document has all the information of measurements, variables, operations, constants etc. All of this can be changed. 
 
 The model has 6 subsystems:
 - External temperature: two sine-waves establish the daily and weekly outside temperature and gives de maximum and minimum tempertarure. 
